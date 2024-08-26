@@ -59,11 +59,21 @@ console.log(bar); //41
 
 ```
 
-** const ** same as let , but cannot reassign . try to reduce mutable state  
+**const** same as let , but cannot reassign . try to reduce mutable state  
 
 ```javascript repl+
 const con = 1;
-con = 2;  //Assignment to constant variable
+con = 2;  //cannot Assignment to constant variable
+
+```
+
+**const** is trying to avoid mutability , but in case of object can be change !
+
+```javascript repl+
+
+const conObj = {a:1};
+conObj.a = 2;  
+console.log(conObj.a);
 
 ```
 
@@ -74,7 +84,7 @@ pls use const -> let -> var
 ..............................................
 
 
-Exercise 1
+**Exercise 1**
 
 
 ```javascript repl+
@@ -88,7 +98,7 @@ var a = 10;
 Result : undefine because var is hoisted to respective scope (function level) 
 
 
-Exercise 2
+**Exercise 2**
 
 
 ```javascript repl+

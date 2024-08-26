@@ -98,4 +98,4 @@ Accessing them before declaration results in a ReferenceError.
 Assignment: Must be initialized at the time of declaration and cannot be reassigned.
 
 
-we may run script/var.md using https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl 
+we may play with [script/var.md](https://github.com/parane/web-development/blob/javascript/var-let-const/script/var.md)
