@@ -1,6 +1,9 @@
 # Var, Let and Const #
 
 In JavaScript, variables can be declared using `var`, `let`, or `const` keywords. 
+
+let and const are the new alternatives (ES6) to the messy var old declearation 
+
 Each of these keywords has different :
 
 ![Alt Text](Asset/concept-var.png)
