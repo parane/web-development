@@ -110,3 +110,11 @@ var z = 10;
 
 ```
 Result : 10 because a is hoisted to global scope.
+
+
+```javascript repl+
+
+const a;
+console.log(a);
+a=10;
+```
