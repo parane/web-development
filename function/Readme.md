@@ -199,6 +199,9 @@ console.log(add(1,2));
 
 Arrow Function solve more than argument, it solve another default parameter this (Dynamic/Static Scoping) ! 
 
+we may play with [Arrow_Function](https://github.com/parane/web-development/blob/javascript/function/script/arrowfn.md)
+
+
 
 - How about normal function ?  we may use  **Rest Parameter** and **Spread Operator** to solve this issue.
 
@@ -259,6 +262,5 @@ Default parameters allow you to specify default values for function parameters.
   };
 ```
 
-Another 
 
 
