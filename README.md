@@ -24,6 +24,8 @@ ECMAScript 2016
 .
 ECMAScript 2024
 
+So, lets explore JavaScript Features You Need to Know to master in React Js. 
+
 # Running Javascript #
 If you are developing for the back end using Javascript , you may better control of version of the runtime define you use
 But for front end , you have to consider the browser compatibility. We used transpiling tools like Babel to convert the latest javascript to older version.

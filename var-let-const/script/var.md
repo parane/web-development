@@ -73,9 +73,22 @@ con = 2;  //cannot Assignment to constant variable
 
 const conObj = {a:1};
 conObj.a = 2;  
-console.log(conObj.a);
+console.log(conObj.a); //2
 
 ```
+
+How can i makesure immutability to Object ?
+
+We can use Object.freeze()
+
+```javascript repl+
+
+const conObj2 = {a:1};
+Object.freeze(conObj2);
+conObj2.a = 2;  
+console.log(conObj2.a) //1
+```
+
 
 pls use const -> let -> var
 
