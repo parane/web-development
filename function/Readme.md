@@ -80,6 +80,8 @@ kfcOrder.printReceipt();
 
 ## Function Invocation ##
 
+![Alt Text](asset/invoke.gif)
+
 Function invocation is the process of calling a function. Every function receives two additional parameters: ** this ** and
 ** arguments **. The this parameter is very important in object oriented programming, and its value is determined by the invocation pattern
 

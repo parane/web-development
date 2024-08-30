@@ -56,4 +56,10 @@ you may View > Developer > javascript console to run the javascript code in brow
 
 1. [var-let-const](https://github.com/parane/web-development/tree/javascript/var-let-const)
 2. [function-arrow-fn](https://github.com/parane/web-development/tree/javascript/function)
+3. [literal-destructuring](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
 
+
+## Reference ##
+[book]javascript the good parts
+[book]Rediscovering JavaScript
+[javascript-react](https://kinsta.com/blog/javascript-react/)
