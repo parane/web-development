@@ -4,13 +4,16 @@ JavaScript is a  high-level programming language primarily used for web developm
 
 JavaScript is often used to manipulate the DOM to create dynamic and interactive web pages
 
-![Alt Text](asset/mordern-js.jpg)
+![Alt Text](asset/dom.gif)
+
+
 
 # Advance Javascript #
 
 JavaScript is now evolve to a full-fledged programming language which can be used for game development , 
 server side development and even for machine learning.
-![Alt Text](asset/dom.gif)
+
+![Alt Text](asset/mordern-js.jpg)
 
 Unlike other language, Javascript doesnt have the luxury to deprecate feature. 
 Specially in front end which is need to be rendered in all kind of browser.
@@ -59,6 +62,7 @@ you may View > Developer > javascript console to run the javascript code in brow
 1. [var-let-const](https://github.com/parane/web-development/tree/javascript/var-let-const)
 2. [function-arrow-fn](https://github.com/parane/web-development/tree/javascript/function)
 3. [literal-destructuring](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
+4. [suprises](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
 
 
 ## Reference ##
