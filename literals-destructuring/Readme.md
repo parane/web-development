@@ -19,8 +19,11 @@ We ll consider main improvements in those literals :
 ## Template (String) Literal ##
 
 Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+![template-literal.png](asset/template-literal.png)
+
 
 ```javascript repl+
+
 const name = 'John';
 const wish = 'Good morning'
 console.log('Hello'+name+'!'+wish); //Hello John! Good morning

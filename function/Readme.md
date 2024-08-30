@@ -3,12 +3,13 @@
 Function is block of code define to perform a particular task.
 They are  used for code reuse, information hiding, and composition.
 Functions in JavaScript are first class objects.
-
 - Define a function named greet.
 - Assign the function to a variable sayHello.
 - Pass the function as an argument to another function executeFunction.
 - Return a function from another function createFunction.
 - Add a property and **method** (like in Object) to the function.
+
+![Alt Text](asset/is_this_same.jpg)
 
 The thing that is special about functions (from Object ) is that they can be **invoked**.
 
@@ -47,7 +48,9 @@ console.log(greet.description);
 
 Function and method are two terms that are often used interchangeably in JavaScript.
 
-### Methods have a “receiver” while functions do not.###
+![Alt Text](asset/same.gif)
+
+*** But, Methods have a “receiver” while functions do not. ***
 
 What's that ? 
 

@@ -4,11 +4,13 @@ JavaScript is a  high-level programming language primarily used for web developm
 
 JavaScript is often used to manipulate the DOM to create dynamic and interactive web pages
 
-![Alt Text](asset/dom.gif)
+![Alt Text](asset/mordern-js.jpg)
 
 # Advance Javascript #
+
 JavaScript is now evolve to a full-fledged programming language which can be used for game development , 
 server side development and even for machine learning.
+![Alt Text](asset/dom.gif)
 
 Unlike other language, Javascript doesnt have the luxury to deprecate feature. 
 Specially in front end which is need to be rendered in all kind of browser.

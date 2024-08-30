@@ -48,6 +48,8 @@ console.log(theater); // Output: Global Theater
 
 ### Hoisting ### 
 
+![hoisting.gif](Asset/hoisting2.gif)
+
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before code execution.
 This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
 
@@ -97,5 +99,6 @@ Accessing them before declaration results in a ReferenceError.
 **Re-declaration**: Not allowed within the same scope.
 Assignment: Must be initialized at the time of declaration and cannot be reassigned.
 
+![Alt Text](Asset/const.gif)
 
 we may play with [script/var.md](https://github.com/parane/web-development/blob/javascript/var-let-const/script/var.md)
