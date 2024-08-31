@@ -62,7 +62,7 @@ console.log(`Hello ${name} ,
 
 ## Improved Object Literal ##
 
-### IShorthand Assignment ###
+### Shorthand Assignment ###
 
 ```javascript repl+
 //old way to create Object 
