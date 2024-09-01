@@ -274,4 +274,4 @@ Default parameters allow you to specify default values for function parameters.
 So we have looked function in javascript. Now we move to functional programming which is a 
 programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data.
 
-we may play with [Arrow_Function](https://github.com/parane/web-development/blob/javascript/function/script/functional-programming.md)
+more on [functional_programming](https://github.com/parane/web-development/blob/javascript/function/script/functional-programming.md)

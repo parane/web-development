@@ -2,7 +2,7 @@
 
 ![Alt Text](asset/err.gif)
 
-Lets see some obvious errors and how can we mitigate ?
+Lets see some silent(suprise) errors which  do not trigger any kind of reporting, but fail in runtime and how can we mitigate ?
 
 ## ASI Automatic insert of semicolons ##
 

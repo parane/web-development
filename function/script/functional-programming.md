@@ -12,11 +12,13 @@ A programming paradigm is a fundamental style or approach(mindset) to programmin
 ![Alt Text](asset/paradigm.png)
 
 
-Imperative : follow my commands do this , then that 
-  OOP: organise code into Object, keep state (data)  to yourself interact (method) to other object
+**Imperative** : follow my commands do this , then that
+> **OOP**: organise code into Object, keep state (data)  to yourself interact (method) to other object
 
-Declarative : this is what i want , I dont care how you do it 
-   functional programming: Treats computation as the evaluation of mathematical functions and avoids changing state and mutable data (i.e Pure Function).
+**Declarative** : this is what i want , I dont care how you do it
+> **functional programming**: Treats computation as the evaluation of mathematical functions and avoids changing state and mutable data (i.e Pure Function).
+
+![Alt Text](asset/imp.gif)
 
 ### what is Pure function ? ###
 
@@ -53,3 +55,7 @@ A side effect in programming refers to any operation that modifies some state or
 
 
 ### What is Higher Order Function ? ###
+
+A higher-order function is a function that either takes one or more functions as arguments or returns a function as its result.
+
+![Alt Text](asset/hof.gif)
