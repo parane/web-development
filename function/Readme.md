@@ -149,7 +149,7 @@ greet.call(null, 'Eve'); //this-> null , argument -> list
 greet.apply(null, ['Eve']); //this->null , argument -> array
 ```
 
-**Wait ! We have some issue in Function arguments  **
+**Wait ! We have some issue in Function during passing arguments  **
 
 ### Function Arguments ###
 
@@ -268,4 +268,10 @@ Default parameters allow you to specify default values for function parameters.
 ```
 
 
+## Functional Programming  ##
+![Alt Text](asset/func.gif)
 
+So we have looked function in javascript. Now we move to functional programming which is a 
+programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data.
+
+we may play with [Arrow_Function](https://github.com/parane/web-development/blob/javascript/function/script/functional-programming.md)
