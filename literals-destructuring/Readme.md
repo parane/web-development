@@ -10,7 +10,7 @@ In new version javascript introduce enhance literal
 # Literal #
 notation of value in the code. eg String literal, integer , Object , array etc 
 
-We ll consider main improvements in those literals : 
+We ll consider main improvements in those literals here : 
 
 1. String literal improvement 
 2. Object literal improvement 
