@@ -1,4 +1,4 @@
-# JavaScript Surprises and Best Practices #
+# JavaScript Weired Part and Best Practices #
 
 ![Alt Text](asset/err.gif)
 
@@ -53,6 +53,73 @@ console.log([]=='0'); //false because [] -> '' and then compared with '0'
 Use === when you want to compare values without type conversion (recommended for most cases to avoid unexpected results).
 
 
+## Undefined vs null vs NaN  ##
+
+![Alt Text](asset/NaN.png)
+
+### undefined ###
+Type: undefined
+Meaning: A variable that has been declared but not assigned a value.
+Usage: Indicates the absence of a value or that a variable has not been initialized.
+
+``` javascript repl+
+let a;
+console.log(a); // Output: undefined
+
+```
+
+### null ###
+Type: object
+Meaning: An assignment value that represents no value or no object.
+Usage: Explicitly indicates the absence of any object value.
+
+``` javascript repl+
+let b = null;
+console.log(b); // Output: null
+```
+
+
+NaN (Not-a-Number)
+Type: number
+Meaning: Represents a value that is not a legal number.
+Usage: Typically the result of an invalid or undefined mathematical operation
+
+``` javascript repl+
+let result = 0 / 0;
+console.log(result); // Output: NaN
+console.log(typeof result); // Output: number
+```
+
+### Truthy vs Falsy ###
+
+Values other than actual booleans can evaluate as true (truthy) or false (falsy) in a logical expression. The following values will be treated as falsy:
+
+
+``` javascript repl+
+if (false) console.log('false'); // false
+if (0) console.log('0'); // false
+if ('') console.log('empty string'); // false
+if (null) console.log('null'); // false
+if (undefined) console.log('undefined'); // false
+if (NaN) console.log('NaN'); // false
+
+//But 
+if ({}) console.log('object'); // true
+if ([]) console.log('array'); // true
+
+```
+
+usage : assign default value !
+logical expression is not always a real boolean. 
+Using || (or) will return the first truthy or last value in the expression.
+
+``` javascript repl+
+let input;
+let defaultValue = input || "default";
+console.log(defaultValue); // Output: "default" 
+
+```
+
 ## Apply the use strict Directive ##
 
 "use strict" is a directive in top js file that enables strict mode. Strict mode is a way to opt in to a restricted variant of JavaScript, 
@@ -95,3 +162,6 @@ JSLint: A more opinionated linter created by Douglas Crockford, focusing on code
 JSLint is little agressive  and has fewer configuration options, while ESLint is highly configurable and supports custom rules and plugins. 
 
 ![Alt Text](asset/jslint.jpg)
+
+## Typescript ##
+

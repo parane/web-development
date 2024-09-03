@@ -61,7 +61,30 @@ then(): Attaches callbacks for the fulfillment and rejection cases.
 catch(): Attaches a callback for only the rejection case.
 finally(): Attaches a callback that is invoked regardless of the promise's outcome.
 
+Timout using promise 
+
+
+```javascript repl+
+
+const wait = function(ms){
+
+return new Promise((resolve)=>{
+
+  setTimeout(resolve, ms);
+
+});
+}
+wait(1000).then(()=>{   //after 1s 'Hey'
+  console.log('Hey');  
+  });
+
+
+```
+
+
 In summary, Promises provide a powerful way to handle asynchronous operations in JavaScript, making the code more readable and easier to manage.
+
+
 
 Read:
 https://medium.com/@masterrajpatel/javascript-visualized-promises-async-await-%EF%B8%8F-c51af935f7f5
@@ -95,19 +118,48 @@ Resumes execution and returns the resolved value of the Promise.
 
 ```javascript repl+
 
-
 async function f() {
   return "1";
 }
 
 //return a promisefunction 
-function f() {
+function f1() {
   return Promise.resolve("1");
 }
 
-let value = await promise; // wait until the promise resolves (*)
 
- alert(result); // "done!"
+async function g(){
+let value = await f(); // wait until the promise resolves (*)
+}
+
+g();
+
+```
+
+
+Timeout using Async 
+
+
+```javascript repl+
+
+async function wait(ms) {
+
+return new Promise((resolve)=>{
+
+  setTimeout(resolve, ms);
+
+});
+
+}
+
+async function foo() {
+  await wait(1000);
+  console.log('Hey');
+}
+
+foo();  ////after 1s 'Hey'
+
+
 ```
 
 //Read
