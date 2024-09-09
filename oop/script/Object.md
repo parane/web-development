@@ -1,9 +1,11 @@
 ## Objects in Js ##
+An object in JavaScript is a collection of properties, where each property is defined as a key-value pair. Objects can contain both data (in the form of properties) and functions (in the form of methods). They are used to store and manipulate data in a structured way.
 
-![Alt Text](asset/Object.gif)
+eg:
+![Alt Text](asset/Obj2.jpg)
 
-![Alt Text](asset/Obj2.gif)
 
+### Object Type ###
 Object is a type in JavaScript just like string, number etc. There are subtypes to objects, which are
 
 String
@@ -15,6 +17,8 @@ Object
 Boolean
 Date
 Error
+
+![Alt Text](asset/Object.gif)
 
 ### Object creation  ###
 We can create objects using
