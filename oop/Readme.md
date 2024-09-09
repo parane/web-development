@@ -12,7 +12,7 @@ Polymorphism: Ability to process objects differently based on their data type or
 
 Lets see the Javascript OOP Cababilities :
 
-1. [Object](https://github.com/parane/web-development/tree/javascript/oop/Object.md)
-2. [Class](https://github.com/parane/web-development/tree/javascript/oop/class.md)
-3. [prototype](https://github.com/parane/web-development/tree/javascript/oop/prototype.md)
+1. [Object](https://github.com/parane/web-development/tree/javascript/oop/script/Object.md)
+2. [Class](https://github.com/parane/web-development/tree/javascript/oop/script/class.md)
+3. [prototype](https://github.com/parane/web-development/tree/javascript/oop/script/prototype.md)
 
