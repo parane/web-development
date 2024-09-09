@@ -1,5 +1,5 @@
 # OOP #
-![Alt Text](asset/oop1.png)
+![Alt Text](asset/oop2.png)
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code to manipulate that data. JavaScript supports OOP through its prototype-based inheritance model.
 
