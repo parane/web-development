@@ -76,6 +76,7 @@ Usage: Explicitly indicates the absence of any object value.
 ``` javascript repl+
 let b = null;
 console.log(b); // Output: null
+//typeof null --> Object 
 ```
 
 
@@ -108,17 +109,25 @@ if ({}) console.log('object'); // true
 if ([]) console.log('array'); // true
 
 ```
+usage : assign default value in Short Circuit evaluation ! 
 
-usage : assign default value !
+
+### Short circuit evaluation ###
+
 logical expression is not always a real boolean. 
-Using || (or) will return the first truthy or last value in the expression.
-
+Using || (or) - the first truthy or last value in the expression.
 ``` javascript repl+
-let input;
-let defaultValue = input || "default";
-console.log(defaultValue); // Output: "default" 
-
+let a = 0 || "default";
+console.log(a); // Output: "default"
 ```
+Using && (and) - Returns the first falsy value or the last value if none are falsy
+``` javascript repl+
+let b = 1 && "value";
+console.log(b); // Output: "value"
+```
+
+Short circuit evaluation helps in writing concise and efficient code by avoiding unnecessary evaluations.
+
 
 ## Apply the use strict Directive ##
 
@@ -163,5 +172,26 @@ JSLint is little agressive  and has fewer configuration options, while ESLint is
 
 ![Alt Text](asset/jslint.jpg)
 
-## Typescript ##
+## Javascript is Dynamic Typing  ##
 
+ariables do not have a fixed type and can hold values of any type at any time. 
+This allows for flexibility but can also lead to unexpected behavior if not managed carefully.
+
+``` javascript repl+
+
+let variable = 42; // Initially a number
+console.log(typeof variable); // Output: "number"
+
+variable = "Hello, world!"; // Now a string
+console.log(typeof variable); // Output: "string"
+
+variable = true; // Now a boolean
+console.log(typeof variable); // Output: "boolean"
+
+```
+
+TypeScript: Consider using TypeScript, a statically typed superset of JavaScript, to catch type-related errors at compile time.
+
+![Alt Text](asset/typing.png)
+
+## Typescript ##

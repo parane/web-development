@@ -92,7 +92,7 @@ console.log(conObj2.a) //1
 
 pls use const -> let -> var
 
-![Alt Text](Asset/bottom_line.jpg)
+![Alt Text](asset/bottom_line.jpg)
 
 ..............................................
 
