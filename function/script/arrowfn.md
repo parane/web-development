@@ -149,3 +149,14 @@ const ArrowFunction = () => {};
 const instance = new ArrowFunction(); // Error: ArrowFunction is not a constructor
 
 ```
+- No this Binding: Arrow functions do not have their own this context. They inherit this from the parent scope. This makes them unsuitable for methods inside objects where this is expected to refer to the object itself.
+
+```javascript repl+
+const obj = {
+    value: 42,
+    method: () => {
+        console.log(this.value); // `this` is inherited from the parent scope
+    }
+};
+obj.method(); // Output: undefined
+```
