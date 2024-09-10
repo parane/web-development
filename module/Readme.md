@@ -1,4 +1,16 @@
-## Import and Export ##
+## Module ##
+The selected code demonstrates how to create and use modules in JavaScript. 
+Modules are a way to organize and encapsulate code, making it easier to manage and reuse. JavaScript modules allow you to export variables, functions, or classes from one file and import them into another.
+
+JavaScript modules are used to modularize code—that is, to divide code into
+parts that have different concerns, but they may need to depend on one
+another. For example, each component and service class you create in, say,
+React and Angular will belong to separate modules. Each group of functions
+related to a common set of operations may belong to a module.
+
+As a creator of a module, you’re responsible for clearly specifying what you need—the imports—and
+what you provide for others to use—the exports.
+
 
 ### Export ###
 As of ECMAScript 2015 (ES6), it is possible to export values from a JavaScript module and import them into another script.

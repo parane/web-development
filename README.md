@@ -61,8 +61,10 @@ you may View > Developer > javascript console to run the javascript code in brow
 
 1. [var-let-const](https://github.com/parane/web-development/tree/javascript/var-let-const)
 2. [function-arrow-fn](https://github.com/parane/web-development/tree/javascript/function)
-3. [literal-destructuring](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
-4. [suprises](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
+3. [oop](https://github.com/parane/web-development/tree/javascript/oop)
+4. [literal-destructuring](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
+5. [module](https://github.com/parane/web-development/tree/javascript/module)
+6.[suprises](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
 
 
 ## Reference ##

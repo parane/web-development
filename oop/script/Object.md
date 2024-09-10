@@ -6,25 +6,21 @@ eg:
 
 
 ### Object Type ###
-Object is a type in JavaScript just like string, number etc. There are subtypes to objects, which are
+Object is a type in JavaScript just like Built in class string, number etc. There are subtypes to objects, which are
 
 String
-
 Number
-
 Array
-
 Function
-
 RegEx
-
 Object
-
 Boolean
-
 Date
-
 Error
+Promise
+WeakMap
+WeakSet
+
 
 
 ![Alt Text](asset/Object.gif)
@@ -59,6 +55,8 @@ myObject["true"]; // "foo"
 myObject["3"]; // "bar"
 myObject["[object Object]"]; // "baz"
 ```
+
+### Computed Property ### 
 
 ES6 adds computed property names, where you can specify an expression, surrounded by a [ ] pair, in the key-name position of an object-literal declaration:
 

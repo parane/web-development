@@ -93,6 +93,36 @@ class Car {
 
 ```
 
+### Computed Properties  ###
+
+We already saw ES6 computed property to access the object property, we can see Class with Computed Member Methods !
+
+
+```javascript repl+
+const methodName = 'calculate';
+
+class Rectangle {
+    constructor(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    [`${methodName}Area`]() {
+        return this.width * this.height;
+    }
+
+    [`${methodName}Perimeter`]() {
+        return 2 * (this.width + this.height);
+    }
+}
+
+const rect = new Rectangle(10, 5);
+console.log(rect.calculateArea()); // Output: 50
+console.log(rect.calculatePerimeter()); // Output: 30
+```
+
+
+
 ### Properties : getter and setter ###
 
 Properties(color) are special kinds of fields that have getter and setter methods. They allow controlled access to the class fields.
@@ -118,4 +148,75 @@ car1.color = 'red'; // Error: Cannot set property color of #<Car> which has only
 // we may setter to set the value !
 ```
 
-### static ###
+### Defining class level member : static ###
+
+When creating abstractions , we often arrive at method that may not specific to any particular instance.
+In such cases, we can define class level members using static keyword.
+
+Add a static method compare to compare two cars based on their model.
+Add a static property numberOfWheels to represent the number of wheels common to all cars.
+
+
+```javascript repl+
+
+class Car {
+    constructor(model) {
+        this.model = model;
+    }
+
+    // Static method to compare two cars
+    static compare(car1, car2) {
+        return car1.model === car2.model;
+    }
+
+    // Static property
+    static numberOfWheels = 4;
+}
+
+const car1 = new Car('BMW');
+const car2 = new Car('Audi');
+
+console.log(Car.compare(car1, car2)); // Output: false
+console.log(Car.numberOfWheels); // Output: 4
+
+```
+
+## Class Expressions ##
+
+>Expressions vs Statement : ** Expressions ** (eg: 5+3) produce a value, 
+> while ** statements**  (eg condition, loops) do not and perform an action.
+
+class expression are useful to define classes on the fly (based on DB table , user provider input etc), without the need to declare a separate class declaration.
+
+Class Factory
+
+```javascript repl+
+function createClass(className, properties) {
+    return class {
+        constructor(...args) {
+            properties.forEach((prop, index) => {
+                this[prop] = args[index];
+            });
+        }
+
+        getClassName() {
+            return className;
+        }
+    };
+}
+
+// Example usage
+const Person = createClass('Person', ['name', 'age']);
+const john = new Person('John', 30);
+console.log(john.getClassName()); // Output: Person
+```
+
+
+Class are lower level mechanics by which we implement all higher level design pattern (iterator, Observer, Factory) as if OO is given foundation for all proper code.
+1. OOP
+2. Design Pattern
+
+
+
+
+
