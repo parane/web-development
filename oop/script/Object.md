@@ -21,8 +21,6 @@ Promise
 WeakMap
 WeakSet
 
-
-
 ![Alt Text](asset/Object.gif)
 
 ### Object creation  ###

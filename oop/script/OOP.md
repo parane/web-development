@@ -51,7 +51,7 @@ export default SimpleComponent;
 pls note constructor auto inject in case not written !
 
 
-## Prototypal (Object Based) Inheritance ##
+## Prototypal (Object Based/Delegate) Inheritance ##
 Even we decleare as class based inheritance , but in js , those are still prototype based inheritance.
 
 Unlike class-based inheritance, prototypal inheritance is implemented using delegation. Remember the sage advice from good design books: delegation is
@@ -104,7 +104,9 @@ console.log(car2.km); // ???? 0
 //It works as dynamic 
 ```
 
-Lets check Class based inheritance 
+![Alt Text](asset/car.gif)
+
+Lets check Class based inheritance which is using underline use prototype based 
 
 ```javascript repl+
 class Animal {
@@ -135,13 +137,21 @@ console.log(Object.getPrototypeOf(Object.getPrototypeOf(dog)));
 
 ```
 
+>typeof:  a string indicating the type of the unevaluated operand. , 'instanceof' prototype property of a constructor appears anywhere in the prototype chain of an object.
+> console.log(typeof function(){}); // "function" console.log(dog instanceof Object); // true
 
+> prototype vs _proto_ : Animal.prototype is the blueprint. dog.__proto__ is the secret link to the blueprint. https://www.youtube.com/watch?v=DqGwxR_0d1M
+
+[More Prototype...](https://github.com/parane/web-development/tree/javascript/oop/script/prototype.md)
 
 # Polymorphism #
 
 Polymorphism in JavaScript allows objects to be treated as instances of their parent class rather than their actual class. This is achieved through method overriding and method overloading.  
 
 ### Method Overriding ###
+
+![Alt Text](asset/overload.gif)
+
 Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
 
 ```javascript repl+ 

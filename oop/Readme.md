@@ -24,5 +24,10 @@ Lets see the Javascript OOP Cababilities :
 
 1. [Object](https://github.com/parane/web-development/tree/javascript/oop/script/Object.md)
 2. [Class](https://github.com/parane/web-development/tree/javascript/oop/script/class.md)
-3. [prototype](https://github.com/parane/web-development/tree/javascript/oop/script/prototype.md)
+3. [OOP](https://github.com/parane/web-development/tree/javascript/oop/script/OOP.md)
+4. [Design Pattern](https://github.com/parane/web-development/tree/javascript/oop/script/design_pattern.md)
 
+
+Reference: 
+1. Rediscovering JavaScript
+2. O'Reilly - You Don't Know JS. this & Object Prototypes [here](https://github.com/gauravmehla/Javascript-bookshelf)
