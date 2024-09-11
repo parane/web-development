@@ -169,3 +169,6 @@ https://gist.github.com/pqt/883216dfe290585ac4b839f8209949b7
 
 https://javascript.info/async-await
 https://www.w3schools.com/js/js_async.asp
+
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)

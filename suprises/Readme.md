@@ -203,3 +203,5 @@ More Javascript Best practises :
 1. https://github.com/ryanmcdermott/clean-code-javascript
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 3. https://github.com/airbnb/javascript
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)

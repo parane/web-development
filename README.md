@@ -69,6 +69,7 @@ you may View > Developer > javascript console to run the javascript code in brow
 
 
 ## Reference ##
-[book]javascript the good parts
-[book]Rediscovering JavaScript
-[javascript-react](https://kinsta.com/blog/javascript-react/)
+
+1. [book]javascript the good parts
+2. [book]Rediscovering JavaScript
+3. [javascript-react](https://kinsta.com/blog/javascript-react/)

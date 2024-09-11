@@ -102,3 +102,5 @@ Assignment: Must be initialized at the time of declaration and cannot be reassig
 ![Alt Text](Asset/const.gif)
 
 we may play with [script/var.md](https://github.com/parane/web-development/blob/javascript/var-let-const/script/var.md)
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)

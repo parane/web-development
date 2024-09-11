@@ -88,3 +88,6 @@ console.log(sum(2, 3)); // Output: 5
 
 To create an import alias using @ for a specific directory in a JavaScript or TypeScript project, 
 you need to configure your module resolution.
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)
+

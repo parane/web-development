@@ -275,3 +275,7 @@ So we have looked function in javascript. Now we move to functional programming 
 programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data.
 
 more on [functional_programming](https://github.com/parane/web-development/blob/javascript/function/script/functional-programming.md)
+
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)
+

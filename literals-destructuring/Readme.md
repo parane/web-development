@@ -174,3 +174,5 @@ print2(user);
 ```
 
 Enhance Template literal and destructuring greatly reduce the noise in code !!!
+
+[Back](https://github.com/parane/web-development/tree/javascript?tab=readme-ov-file#table-of-content)
