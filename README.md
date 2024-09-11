@@ -65,7 +65,7 @@ you may View > Developer > javascript console to run the javascript code in brow
 4. [function-arrow-fn](https://github.com/parane/web-development/tree/javascript/function)
 5. [Asynchronous](https://github.com/parane/web-development/tree/javascript/Async)
 6. [oop](https://github.com/parane/web-development/tree/javascript/oop)
-7. [wired-part/Best practices](https://github.com/parane/web-development/tree/javascript/literals-destructuring)
+7. [wired-part/Best practices](https://github.com/parane/web-development/tree/javascript/suprises)
 
 
 ## Reference ##
