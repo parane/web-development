@@ -32,10 +32,10 @@ TypeScript includes advanced features such as interfaces, generics, and decorato
 
 ## What are advance features ? ##
 
-1. Data Types
-2. Interfaces
-3. Generics
-4. Decorators
+1. [Data Types](https://github.com/parane/web-development/tree/typescript/dataType)
+2. [Interfaces](https://github.com/parane/web-development/tree/typescript/interface)
+3. [Generics](https://github.com/parane/web-development/tree/typescript/generic)
+4. [Decorators](https://github.com/parane/web-development/tree/typescript/decorator)
 
 ### TS Best Practises ###
 
