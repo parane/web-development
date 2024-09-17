@@ -129,40 +129,56 @@ But We only focus on React in our next sections.
 
 #### React ####
 Developed By: Facebook
+
 Type: Library
+
 Key Features:
-Component-Based: UI is built using reusable components.
-Virtual DOM: Efficiently updates and renders components.
-JSX: JavaScript syntax extension for writing HTML-like code within JavaScript.
-Unidirectional Data Flow: Data flows in one direction, making it easier to understand and debug.
+
+Component-Based: UI is built using reusable components.<br>
+Virtual DOM: Efficiently updates and renders components.<br>
+JSX: JavaScript syntax extension for writing HTML-like code within JavaScript.<br>
+Unidirectional Data Flow: Data flows in one direction, making it easier to understand and debug.<br>
 
 #### Vue ####
-Developed By: Evan You
-Type: Framework
-Key Features:
-Reactive Data Binding: Automatically updates the DOM when the data changes.
-Component-Based: Similar to React, UI is built using reusable components.
-Directives: Special tokens in the markup that bind to the DOM.
-Vue CLI: Command-line interface for rapid project scaffolding.
+Developed By: Evan You<br>
+Type: Framework<br>
+Key Features:<br>
+Reactive Data Binding: Automatically updates the DOM when the data changes.<br>
+Component-Based: Similar to React, UI is built using reusable components.<br>
+Directives: Special tokens in the markup that bind to the DOM.<br>
+Vue CLI: Command-line interface for rapid project scaffolding.<br>
 
 #### Angular ####
-Developed By: Google
-Type: Framework
-Purpose: Building large-scale, enterprise-level single-page applications.
-Key Features:
-Two-Way Data Binding: Synchronizes data between the model and the view.
-Dependency Injection: Design pattern that makes it easier to manage and test components.
-TypeScript: Uses TypeScript, a statically typed superset of JavaScript.
-Comprehensive: Includes everything needed for a full-fledged application, such as routing, state management, and form handling.
+Developed By: Google<br>
+Type: Framework<br>
+Purpose: Building large-scale, enterprise-level single-page applications.<br>
+Key Features:<br>
+Two-Way Data Binding: Synchronizes data between the model and the view.<br>
+Dependency Injection: Design pattern that makes it easier to manage and test components.<br>
+TypeScript: Uses TypeScript, a statically typed superset of JavaScript.<br>
+Comprehensive: Includes everything needed for a full-fledged application, such as routing, state management, and form handling.<br>
 
 
 ### Server side JS Frameworks/Library ###
 
 #### Next js ####
-
-JavaScript frameworks are an essential part of modern front-end web development, providing developers with tried and tested tools for building scalable, interactive web applications.
-Many modern companies use frameworks as a standard part of their tooling, so many front-end development jobs now require framework experience.
+Developed By: Vercel<br>
+Type: Framework<br>
+Purpose: Building server-side rendered (SSR) and static web applications<br>
+Key Features:<br>
+Server-Side Rendering (SSR): Renders pages on the server for better performance and SEO.<br>
+Static Site Generation (SSG): Generates static HTML at build time.<br>
+API Routes: Allows building API endpoints within the same project.<br>
+Automatic Code Splitting: Only loads the necessary JavaScript for the page.<br>
+File-Based Routing: Automatically creates routes based on the file structure in the pages directory.<br>
 
 #### Express js ####
 
-Fast, unopinionated, minimalist web framework for Node.js
+Developed By: TJ Holowaychuk<br>
+Type: Framework<br>
+Purpose: Building web applications and APIs<br>
+Key Features:<br>
+Minimal and Flexible: Provides a robust set of features for web and mobile applications.<br>
+Middleware Support: Allows handling requests and responses through a series of middleware functions.<br>
+Routing: Provides a powerful routing mechanism to handle different HTTP methods and URL paths.<br>
+Template Engines: Supports various template engines like Pug, EJS, and Handlebars for rendering dynamic content.<br>
