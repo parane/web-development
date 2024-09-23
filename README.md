@@ -28,6 +28,9 @@ CSS libraries and preprocessors like Sass, Tailwind, Bootstrap, Materialize, and
     - **Functions**: Perform calculations and manipulate values.
 
 ## Tailwind CSS
+
+![CSS.png](asset/tailwind.jfif)
+
 - **Purpose**: A utility-first CSS framework for rapidly building custom designs.
 - **Key Features**:
     - **Utility Classes**: Use predefined classes to style elements.
@@ -35,11 +38,15 @@ CSS libraries and preprocessors like Sass, Tailwind, Bootstrap, Materialize, and
     - **Responsive Design**: Easily create responsive layouts.
 
 ## Bootstrap
+![CSS.png](asset/boot.jpg)
+
 - **Purpose**: A comprehensive CSS framework for building responsive, mobile-first websites.
 - **Key Features**:
     - **Pre-styled Components**: Buttons, forms, modals, etc.
     - **Grid System**: Create responsive layouts with a flexible grid.
     - **JavaScript Plugins**: Interactive components like carousels and modals.
+
+![CSS.png](asset/boot2.jpg)
 
 ## Materialize
 - **Purpose**: A CSS framework based on Google's Material Design guidelines.

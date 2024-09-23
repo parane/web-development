@@ -1,5 +1,7 @@
 # CSS (Cascading Style Sheets)
 
+![CSS.png](assets/css2.gif)
+
 **Purpose**: CSS is used to style and layout web pages, including the design, colors, and fonts.
 
 ## Key Features
