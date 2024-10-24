@@ -80,6 +80,8 @@ It is a lightweight, in-memory representation of the real DOM. When the state of
 Performance is a key feature of React, but it’s secondary to simplicity. The virtual DOM is part of what enables you to
 defer thinking about complicated state logic and focus on other, more important parts of your application.
 
+
+
 ## 4. Unidirectional Data Flow
 
 ![Alt Text](asset/Parent.gif)
