@@ -194,12 +194,15 @@ TypeScript: Consider using TypeScript, a statically typed superset of JavaScript
 
 ![Alt Text](asset/typing.png)
 
-## Typescript ##
+## Typescript ## 
 
-pls refer : 
+[pls refer:](https://github.com/parane/web-development/tree/typescript)
 
 
 More Javascript Best practises : 
+
+![Alt Text](asset/bp.gif)
+
 1. https://github.com/ryanmcdermott/clean-code-javascript
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 3. https://github.com/airbnb/javascript
