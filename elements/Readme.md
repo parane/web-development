@@ -32,9 +32,9 @@ representations of DOM elements
 ```jsx
 React.createElement('h1', { className: 'greeting' }, 'Hello, world!')   
 ```
-first arg : the type of element to create <h1>
-second arg : the properties of the element { className: 'greeting' }
-third arg : the children(s) of the element 'Hello, world!'
+first arg : the type of element to create ```jsx <h1> ```
+second arg : the properties of the element ```jsx { className: 'greeting' }  ```
+third arg : the children(s) of the element ```jsx 'Hello, world!' ```
 
 ## 2. Rendering React Elements ##
 
