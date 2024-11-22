@@ -95,3 +95,9 @@ A unidirectional data flow means that when designing a React app you often nest 
 
 > Two-way binding and bidirectional data flow are often used interchangeably, but they can have slightly different connotations depending on the context.
 > Two-way binding refers to a data binding technique where changes in the UI automatically update the model, and changes in the model automatically update the UI.
+
+
+## React Analogy ##
+![Alt Text](asset/ana.png)
+[Components](https://github.com/parane/web-development/tree/react/components) use [JSX](https://github.com/parane/web-development/tree/react/jsx) to define what the UI should look like. When you write JSX inside a component, React converts that JSX into [elements](https://github.com/parane/web-development/tree/react/elements). 
+These elements are then used to build the actual DOM (Document Object Model) that you see in the browser.
