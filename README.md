@@ -71,6 +71,9 @@ imperative. You get to declare how your components should behave and look under
 different states, and React’s internal machinery handles the complexity of managing
 updates, updating the UI to reflect changes, and so on.
 
+
+
+
 ## 3. Virtual Dom
 
 ![Alt Text](asset/virtual-dom.gif)
@@ -81,8 +84,30 @@ Performance is a key feature of React, but it’s secondary to simplicity. The v
 defer thinking about complicated state logic and focus on other, more important parts of your application.
 
 
+### Analogy  - 3 & 4 ###
 
-## 4. Unidirectional Data Flow
+![Alt Text](asset/ana.png)
+[Components](https://github.com/parane/web-development/tree/react/components) use [JSX](https://github.com/parane/web-development/tree/react/jsx) to define what the UI should look like. When you write JSX inside a component, React converts that JSX into [elements](https://github.com/parane/web-development/tree/react/elements).
+These elements are then used to build the actual DOM (Document Object Model) that you see in the browser.
+
+
+## 4.  Data Flow
+
+![Alt Text](asset/img.png)
+
+State and props are vehicles for the data that make up your app and make it u
+State is data that changes over time, while props are data that is passed to a component from a parent component.
+
+
+### Props ###
+Props are read-only attributes passed from a parent component to a child component.
+
+### state ###
+State is a mutable object that holds data specific to a component.
+
+![Alt Text](asset/img_1.png)
+
+### Unidirectional Data Flow  ###
 
 ![Alt Text](asset/Parent.gif)
 A unidirectional data flow means that when designing a React app you often nest child components within higher-order parent components. 
@@ -96,8 +121,6 @@ A unidirectional data flow means that when designing a React app you often nest 
 > Two-way binding and bidirectional data flow are often used interchangeably, but they can have slightly different connotations depending on the context.
 > Two-way binding refers to a data binding technique where changes in the UI automatically update the model, and changes in the model automatically update the UI.
 
+![Alt Text](asset/uni-direct.gif)
 
-## React Analogy ##
-![Alt Text](asset/ana.png)
-[Components](https://github.com/parane/web-development/tree/react/components) use [JSX](https://github.com/parane/web-development/tree/react/jsx) to define what the UI should look like. When you write JSX inside a component, React converts that JSX into [elements](https://github.com/parane/web-development/tree/react/elements). 
-These elements are then used to build the actual DOM (Document Object Model) that you see in the browser.
+> But you can pass data back up the hierarchy via callbacks. When a parent receives a  callback from a child component, it can change its data and send the changed data back down to the child components. Even in this scenario with callbacks, data still flows downwards in aggregate and remains determined by the parent passing that data down
