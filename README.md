@@ -107,6 +107,8 @@ State is a mutable object that holds data specific to a component.
 
 ![Alt Text](asset/img_1.png)
 
+pls refer hooks for state management in functional components
+
 ### Unidirectional Data Flow  ###
 
 ![Alt Text](asset/Parent.gif)
@@ -124,3 +126,17 @@ A unidirectional data flow means that when designing a React app you often nest 
 ![Alt Text](asset/uni-direct.gif)
 
 > But you can pass data back up the hierarchy via callbacks. When a parent receives a  callback from a child component, it can change its data and send the changed data back down to the child components. Even in this scenario with callbacks, data still flows downwards in aggregate and remains determined by the parent passing that data down
+
+### Events in React ###
+![Alt Text](asset/img.png)
+What would cause React to update? JavaScript is even-driven, so it’ll probably be in response to some sort of user input (at least in the browser). That might be a click, key
+press, or many of the other events supported by browsers. 
+How do events work with React? 
+ React implements a synthetic event system as a part of the virtual DOM that will translate events in the browser into events for your React application. 
+You can set up event handlers that can respond to events from the browser, as you normally would in JavaScript. 
+
+Here are some key points about handling events in React:  
+***Event Naming:*** React events are named using camelCase, rather than lowercase.
+
+***Event Handling:*** In React, you pass a function as the event handler, rather than a string.
+
