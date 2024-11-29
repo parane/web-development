@@ -12,7 +12,7 @@ Hooks are functions that let you “hook into” React state and lifecycle (reac
 Hooks don’t work inside classe. 
 
 introduced in the React 16.8  :
-[![Video](https://youtu.be/dpw9EHDh2bM)
+[![Video Title](https://img.youtube.com/vi/dpw9EHDh2bM/0.jpg)](https://www.youtube.com/watch?v=dpw9EHDh2bM)
 
 
 1. ***Simpler Code:*** Hooks enable you to use state and other React features in function components, making the code easier to read and maintain.
@@ -33,7 +33,7 @@ introduced in the React 16.8  :
 
 ### useState (state hook)
 
-![Alt Text](asset/fan.png)
+![Alt Text](asset/fan.jpg)
 
 Analogy: A smart Fan.
 Purpose: manage a device state (on/off) in a functional component.
@@ -89,7 +89,7 @@ usecases:
 
 ### useContext!
 
-![Alt Text](asset/room.png)
+![Alt Text](asset/room_temp.jpg)
 
 Analogy: A central control panel .
 Explanation: A central control panel in a smart home allows you to access and control various devices from one place. useContext provides a way to access shared data(room temperature) (like themes or user settings) across different components without passing props manually.
