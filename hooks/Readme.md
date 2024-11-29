@@ -35,8 +35,8 @@ introduced in the React 16.8  :
 
 ![Alt Text](asset/fan.jpg)
 
-Analogy: A smart Fan.
-Purpose: manage a device state (on/off) in a functional component.
+***Analogy:*** A smart Fan.
+***Purpose:*** manage a device state (on/off) in a functional component.
 
 ```jsx
 import React, { useState } from 'react';
@@ -58,12 +58,12 @@ function Fan() {
 ### useEffect (Hook Effect)
 
 ![Alt Text](asset/room.png)
-Analogy: A Smart lighting
+***Analogy:*** A Smart lighting
 
-Explanation: A smart lighting system can turn lights on or off based on a schedule (night) or external conditions(front door open). Similarly, 
+***Explanation:*** A smart lighting system can turn lights on or off based on a schedule (night) or external conditions(front door open). Similarly, 
 useEffect allows you to perform side effects (like fetching data or updating the DOM) based on certain conditions or dependencies.
 
-Purpose: manage side effects in a functional component.It does not use components lifecycle methods which are available in class component
+***Purpose:*** manage side effects in a functional component.It does not use components lifecycle methods which are available in class component
 
 usecases:
 • Fetching data from an API
@@ -91,8 +91,8 @@ usecases:
 
 ![Alt Text](asset/room_temp.jpg)
 
-Analogy: A central control panel .
-Explanation: A central control panel in a smart home allows you to access and control various devices from one place. useContext provides a way to access shared data(room temperature) (like themes or user settings) across different components without passing props manually.
+***Analogy:*** A central control panel .
+***Explanation:*** A central control panel in a smart home allows you to access and control various devices from one place. useContext provides a way to access shared data(room temperature) (like themes or user settings) across different components without passing props manually.
 
 First, create the context and provider:
 
@@ -148,8 +148,8 @@ React has more handy hooks beyond useState and useEffect that help you do even m
 
 ![home.jpg](asset/home.jpg)
 
-Analogy: A smart home automation system.
-Explanation: A smart home automation system can handle complex rules and actions, like turning off all lights and locking doors when you leave the house. useReducer helps manage complex state logic by using a reducer function to handle state transition
+***Analogy:*** A smart home automation system.
+***Explanation:*** A smart home automation system can handle complex rules and actions, like turning off all lights and locking doors when you leave the house. useReducer helps manage complex state logic by using a reducer function to handle state transition
 
 A Reducer hook can be termed as a pure function that returns a  new state whenever we take the state of an application and its
 action as the argument.
