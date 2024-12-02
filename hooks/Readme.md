@@ -158,8 +158,19 @@ React has more handy hooks beyond useState and useEffect that help you do even m
 
 ***Explanation:*** A smart home automation system can handle complex rules and actions, like turning off all lights and locking doors when you leave the house. useReducer helps manage complex state logic by using a reducer function to handle state transition
 
+all useReducer at the top level of your component to manage its state with a reducer.
 A Reducer hook can be termed as a pure function that returns a  new state whenever we take the state of an application and its
 action as the argument.
+
+The useReducer is an alternative to the useState hook for managing state in functional components. The useReducer hook is better suited for managing complex state logic while useState is best for simple state changes.
+
+![useReducer_breakdown.png](asset%2FuseReducer_breakdown.png)
+
+***example***
+The LEAVE_HOUSE action in the reducer function is designed to simulate the scenario where you leave the house. 
+When this action is dispatched, it updates the state to turn off all the lights and lock all the doors.
+
+![Reducer (2).gif](asset/Reducer.gif)
 
 ```jsx
 import React, { useReducer } from 'react';
