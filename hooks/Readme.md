@@ -164,7 +164,7 @@ action as the argument.
 
 The useReducer is an alternative to the useState hook for managing state in functional components. The useReducer hook is better suited for managing complex state logic while useState is best for simple state changes.
 
-![useReducer_breakdown.png](asset%2FuseReducer_breakdown.png)
+![useReducer_breakdown.png](asset/useReducer_breakdown.png)
 
 ***example***
 The LEAVE_HOUSE action in the reducer function is designed to simulate the scenario where you leave the house. 
@@ -216,3 +216,67 @@ function SmartHome() {
 
 export default SmartHome;
 ```
+
+
+
+### useRef -todo with forms
+
+
+## Custom Hooks
+
+Custom hooks in React are functions that allow you to extract and reuse stateful logic across multiple components. They enable you to encapsulate logic that is used by multiple components into a single function, making your code more modular and easier to maintain.  
+
+
+Custom hooks in React are functions that allow you to extract and reuse stateful logic across multiple components. They enable you to encapsulate logic that is used by multiple components into a single function, making your code more modular and easier to maintain.  
+
+
+### Creating a Custom Hook
+
+A custom hook is a JavaScript function whose name starts with "use" and that may call other hooks. Here is an example of a custom hook that manages a counter:
+
+```jsx
+import { useState } from 'react';
+
+function useCounter(initialValue = 0) {
+  const [count, setCount] = useState(initialValue);
+
+  const increment = () => setCount(count + 1);
+  const decrement = () => setCount(count - 1);
+  const reset = () => setCount(initialValue);
+
+  return { count, increment, decrement, reset };
+}
+```
+
+Using a Custom Hook
+You can use the custom hook in any functional component just like you would use built-in hooks:
+
+```jsx
+import React from 'react';
+import useCounter from './useCounter';
+
+function CounterComponent() {
+  const { count, increment, decrement, reset } = useCounter(10);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
+      <button onClick={reset}>Reset</button>
+    </div>
+  );
+}
+
+export default CounterComponent;
+
+```
+
+
+## Rules of Hooks
+
+### 1. Only call Hooks at the top level
+Do not call Hooks inside loops, conditions, or nested functions. Hooks should always be used at the top level of the React functions. This rule ensures that Hooks are called in the same order each time a components renders. 
+   
+### 2. Only call Hooks from React functions
+You cannot call Hooks from regular JavaScript functions. Instead, you can call Hooks from React function components. Hooks can also be called from custom Hooks.
