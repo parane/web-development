@@ -144,6 +144,8 @@ function App() {
     );
 }
 ```
+![more-context](https://github.com/parane/web-development/tree/react/hooks/context)
+
 
 ## Additional Hooks
 
@@ -221,6 +223,41 @@ export default SmartHome;
 
 ### useRef -todo with forms
 
+The useRef hook in React is used to create a mutable object that persists across re-renders of a component. It is commonly used to access and interact with DOM elements directly, store mutable values, or keep a reference to a value without causing a re-render when it changes.
+
+```jsx
+import { useRef } from "react";
+
+export default function App() {
+  const countRef = useRef(0);
+
+  function Increment() {
+    countRef.current++;
+    console.log("Count ref:", countRef);
+  }
+
+  return (
+    <div className="App">
+      <p>CountRef is: {countRef.current}</p>
+      <button onClick={Increment}>Increment</button>
+    </div>
+  );
+}
+
+```
+
+![](asset/img_2.png)
+
+When we run our count app and check the console, we would see that when we click the button, nothing seems to happen even though Increment() runs. The countRef does not trigger any change in the UI. However, if we look at the console, we see that the countRef value is actually being updated even though the UI still displays 0.
+
+If you want to add state to your component that persists across renders and can trigger a re-render when it's updated, go with useState or useReducer. If you want to add state to your component that persists across renders but doesn't trigger a re-render when it's updated, go with useRef.
+
+In summary, useRef is useful for accessing DOM elements, storing mutable values, and keeping a reference to a value across re-renders without causing re-renders.
+
+So mostly form handling, focus management, and animations are the use cases of useRef.
+
+![more-forms-detail](https://github.com/parane/web-development/tree/react/hooks/forms)
+
 
 ## Custom Hooks
 
@@ -271,7 +308,6 @@ function CounterComponent() {
 export default CounterComponent;
 
 ```
-
 
 ## Rules of Hooks
 
