@@ -1,6 +1,6 @@
 # Web Development 
 
-## Javascript
+## [Javascript](https://github.com/parane/web-development/tree/javascript)
 - var-let-const
 - literal-destructuring symbols
 - module
@@ -12,7 +12,7 @@
 
 
 
-## Javascript Eco system
+## [Javascript Eco system](https://github.com/parane/web-development/tree/js-eco)
 - runtime environment
   - Node js
 - Package manager
@@ -38,14 +38,14 @@
   - Next js
 
 
-## Typescript
+## [Typescript](https://github.com/parane/web-development/tree/typescript)
 - Data Types
 - Interface
 - Generic
 - Decorators
 
 
-## CSS Eco system
+## [CSS Eco system](https://github.com/parane/web-development/tree/css-eco)
 - Sass
 - Tailwind css
 - Bootstrap
@@ -57,7 +57,7 @@
   - Emotion
 
 
-## React 
+## [React](https://github.com/parane/web-development/tree/react) 
 - element
 - component
 - JSX
@@ -76,7 +76,7 @@
   - Css/Font optimisation 
 
 
-![](/mark.svg)
+![](/mindmap.png)
 
 
 
