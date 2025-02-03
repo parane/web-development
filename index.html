@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.9/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.9/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.9/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Web Development","children":[{"content":"Javascript","children":[{"content":"var-let-const","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"literal-destructuring symbols","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"module","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"function-arrow-fn","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Asynchronous","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"oop","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Symbols","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"wired-part/Best practices","children":[],"payload":{"tag":"li","lines":"10,14"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Javascript Eco system","children":[{"content":"runtime environment","children":[{"content":"Node js","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"15,17"}},{"content":"Package manager","children":[{"content":"npm","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"yarn","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"li","lines":"17,20"}},{"content":"Build tools","children":[{"content":"babel","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Webpack","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Vite","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"li","lines":"20,24"}},{"content":"Command Line tools","children":[{"content":"create-react-app (CRA)","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"create-next-app (CNA)","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"li","lines":"24,27"}},{"content":"Linters","children":[{"content":"eslint","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"prettier","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"li","lines":"27,30"}},{"content":"Client side JS frameworks","children":[{"content":"React js","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Angular","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Vue js","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"30,34"}},{"content":"Server side JS frameworks","children":[{"content":"Express js","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Nest js","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Next js","children":[],"payload":{"tag":"li","lines":"37,40"}}],"payload":{"tag":"li","lines":"34,40"}}],"payload":{"tag":"h2","lines":"14,15"}},{"content":"Typescript","children":[{"content":"Data Types","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"Interface","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Generic","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Decorators","children":[],"payload":{"tag":"li","lines":"44,47"}}],"payload":{"tag":"h2","lines":"40,41"}},{"content":"CSS Eco system","children":[{"content":"Sass","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Tailwind css","children":[],"payload":{"tag":"li","lines":"49,50"}},{"content":"Bootstrap","children":[],"payload":{"tag":"li","lines":"50,51"}},{"content":"Material UI","children":[],"payload":{"tag":"li","lines":"51,52"}},{"content":"Shadcn","children":[],"payload":{"tag":"li","lines":"52,53"}},{"content":"CSS Modules","children":[],"payload":{"tag":"li","lines":"53,54"}},{"content":"CSS in JS","children":[{"content":"Styled components","children":[],"payload":{"tag":"li","lines":"55,56"}},{"content":"Emotion","children":[],"payload":{"tag":"li","lines":"56,59"}}],"payload":{"tag":"li","lines":"54,59"}}],"payload":{"tag":"h2","lines":"47,48"}},{"content":"React","children":[{"content":"element","children":[],"payload":{"tag":"li","lines":"60,61"}},{"content":"component","children":[],"payload":{"tag":"li","lines":"61,62"}},{"content":"JSX","children":[],"payload":{"tag":"li","lines":"62,63"}},{"content":"router","children":[],"payload":{"tag":"li","lines":"63,64"}},{"content":"hooks","children":[],"payload":{"tag":"li","lines":"64,65"}},{"content":"Testing","children":[{"content":"Jest","children":[],"payload":{"tag":"li","lines":"66,67"}},{"content":"React Testing Library","children":[],"payload":{"tag":"li","lines":"67,68"}},{"content":"Cypress","children":[],"payload":{"tag":"li","lines":"68,69"}}],"payload":{"tag":"li","lines":"65,69"}},{"content":"next js","children":[{"content":"route","children":[{"content":"project structure","children":[],"payload":{"tag":"li","lines":"71,72"}},{"content":"app / page router","children":[],"payload":{"tag":"li","lines":"72,73"}},{"content":"SSR / SSG","children":[],"payload":{"tag":"li","lines":"73,74"}},{"content":"Server / Client Side components","children":[],"payload":{"tag":"li","lines":"74,75"}}],"payload":{"tag":"li","lines":"70,75"}},{"content":"Css/Font optimisation","children":[],"payload":{"tag":"li","lines":"75,80"}}],"payload":{"tag":"li","lines":"69,80"}}],"payload":{"tag":"h2","lines":"59,60"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
