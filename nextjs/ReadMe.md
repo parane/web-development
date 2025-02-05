@@ -2,7 +2,7 @@
 
 Next.js is a production-ready framework built on top of React and Node.js.
 
-![Alt Text](assets/runtime.png)
+![Alt Text](assets/Runtime.png)
 
 
 Key Features of Next.js:
