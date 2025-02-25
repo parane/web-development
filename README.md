@@ -110,6 +110,8 @@ Optimizes: Optimizes the build for performance, including tree-shaking to remove
 
 ![img.png](asset/img.png)
 
+* retired in 2025
+
 #### Vite ####
 Vite is the new player in the town, but the interesting fact is that it outperforms Webpack in terms of speed. It was developed by Evan You, creator of Vue.js.
 
